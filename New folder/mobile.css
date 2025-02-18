@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 2%;
+}
+ h1,p{
+    color: #263238;
+ }
+
+
+/* navbar style start */
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    margin: 7px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+[class*= "col-"]{
+    float: left;
+    padding: 10px;
+}
+/* For mobile */
+
+[class*="col-"]{
+    width: 100%;
+}
+
+.navbarManu{
+    display: flex;
+    flex-direction: column;
+}
+
+a:hover{
+    background-color: #4caf4f;
+}
+
+.navbar{
+    padding: 1% 7%;
+    text-align: center;
+    
+    
+
+}
+
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.btn{
+    border: none;
+    font-size: 15px;
+    color: #4caf4f;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.btn:hover{
+    background-color: #4caf4f;
+    color: white;
+    
+}
+
+.btn1{
+    border: none;
+    font-size: 15px;
+    color: white;
+    background-color: #4caf4f;
+    padding: 10px;
+}
+
+/* navbar style end */
+
+/* style for upper body start */
+
+.upperBody{
+   display: flex;
+   flex-direction: row;
+   padding: 20px;
+   margin-left: 7%;
+   margin-top: 2%;
+   margin-right: 7%;
+}
+
+.mainHeader{
+    font-size: 3rem;
+}
+.mainHeader1{
+    font-size: 3rem;
+    color: #4caf4f;
+}
+
+.upperBodyBtn{
+    border: none;
+    background-color: #4caf4f;
+    color: aliceblue;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.imgIllustration{
+    float: right;
+       
+    
+}
+
+/* style for upper body end */
+
+.midHeader{
+    text-align: center;
+    
+}
+
+.logo{
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:7% ;
+    margin-right: 9%;
+    margin-top: 20px;
+}
+
+
+.bodySection{
+    margin-top: 4%;
+}
+
+.bodySectionHeader{
+    text-align: center;
+}
+
+.bodyHead{
+    text-align: center;
+}
+
+.body{
+    text-align: center;
+}
+
+.imgIcon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgSectionBody{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-right: 7%;
+}
+
+.imgSectionHeader{
+    margin-top: 3%;
+    padding: 20px;
+}
+
+.imgBtn{
+    border: none;
+    background-color: #4caf4f;
+    color: aliceblue;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.iconSectionBody{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-right: 7%;
+}
+
+.flexIcon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.icon2{
+    margin-left: 40%;
+    
+
+}
+
+.panaSection{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-right: 7%;
+}
+
+.panaText{
+    margin-top: 3%;
+    padding: 20px;
+}
+
+.name{
+    color: #4caf4f;
+}
+
+.gapSection{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-right: 7%;
+}
+
+.gapText{
+    padding: 20px;
+}
+
+.gapImgIcon{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+
+   
+}
+
+.lastImgBody{
+    margin: 20px;
+}
+
+.lastImgBodyText{
+    text-align: center;
+}
+.p{
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.lastImgBodyImg{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-right: 7%;
+}
+
+.text11{
+    text-align: center;
+      
+}
+
+.textP{
+    text-align: center;
+    color: #4caf4f;
+}
+
+
+.fotterHeading{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.fotterHeadingBtn{
+   display: block;
+   margin: auto;
+    border: none;
+    background-color: #4caf4f;
+    color: aliceblue;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.fotterSection{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 5%;
+    background-color: #263238;
+    
+}
+
+.fotterSection1{
+    padding: 20px;
+    margin-top: 15px;
+    
+}
+
+.fotterIconSection{
+    
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+.justText{
+    
+    padding: 20px;
+}
+
+.whiteText{
+    color: white;
+}
+
+.inputFild{
+    padding: 15px;
+    border-radius: 7px;
+    margin-top: 20px;
+    
+    
+    
+}
